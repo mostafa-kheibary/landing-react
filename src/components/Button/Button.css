@@ -1,0 +1,23 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  border: 2px solid var(--primary);
+  background-color: transparent;
+  box-shadow: 0px 0px 6px 0.2px var(--primary);
+  color: var(--primary);
+  padding: 5px;
+  transition: all 100ms ease;
+}
+.button.fill {
+  color: var(--secoundry-white);
+  background: linear-gradient(180deg, #dc00be 0%, rgb(0, 0, 0) 100%);
+}
+.button:active {
+  box-shadow: 0px 0px 6px 0.2px inset var(--primary);
+  transform: scale(0.98);
+}

@@ -1,0 +1,21 @@
+.search{
+  width: 250px;
+}
+.search__form {
+  position: relative;
+  width: 100%;
+}
+.search__input {
+  width: 100%;
+  color: var(--secoundry-white);
+  padding: 7px 7px 7px 30px;
+  border: 2px solid var(--primary-white);
+  background-color: transparent;
+}
+.search__icon {
+  color: var(--secoundry-white);
+  left: 10px;
+  top: 50%;
+  transform: translateY(-59%);
+  position: absolute;
+}

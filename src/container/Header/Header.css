@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1980px;
+  height: 70px;
+  padding: 0 35px 0 35px;
+  margin: 0 auto;
+}
+
+.header__brand,
+.header__menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+@media screen and (max-width: 498px){
+  header{
+    padding: 0 20px 0 20px;
+  }
+}
